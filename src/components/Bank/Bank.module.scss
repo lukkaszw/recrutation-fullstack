@@ -1,0 +1,26 @@
+.root {
+  width: 250px;
+  margin: 10px;
+  box-shadow: 2px 2px 10px gray;
+  padding: 5px;
+
+  .header {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .part {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .important {
+    color: red;
+  }
+
+  .money {
+    color: green;
+  }
+}
